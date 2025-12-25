@@ -15,6 +15,6 @@ This repository provides the complete code to reproduce the proposed framework i
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/GraphMultimodalRAG.git
+git clone https://github.com/muthusamir/GraphMultimodalRAG.git
 cd GraphMultimodalRAG
 pip install -r requirements.txt
