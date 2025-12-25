@@ -1,0 +1,22 @@
+model:
+  llm: "gpt-4o"
+  clip_model: "ViT-B/32"
+
+retrieval:
+  top_k_low: 20
+  top_k_high: 10
+  modality_alpha: 0.5  # initial balance
+
+graph:
+  db_type: "nano"  # or "neo4j"
+  embedding_dim: 512
+
+evaluation:
+  datasets:
+    - hotpotqa
+    - fever
+    - m2rag
+    - pdf_mvqa
+    - jurisdocqa
+  seed: 42
+  folds: 5
