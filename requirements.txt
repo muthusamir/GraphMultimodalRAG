@@ -1,0 +1,20 @@
+
+---
+
+### **2. requirements.txt**
+
+```txt
+torch>=2.1.0
+transformers>=4.40.0
+open-clip-torch
+faiss-gpu
+networkx
+langchain
+openai
+pillow
+pytesseract
+pandas
+numpy
+matplotlib
+scikit-learn
+pyyaml
